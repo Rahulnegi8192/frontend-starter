@@ -3,13 +3,7 @@ import React from "react";
 import Ping from "./pong";
 
 function App() {
-  return (
-    <>
-      <div className="App">
-        <Ping></Ping>{" "}
-      </div>
-    </>
-  );
+  return <Ping></Ping>;
 }
 
 export default App;
